@@ -182,6 +182,7 @@ nav{
     font-weight: 700;
     color: #ccc;
     margin-top: 100px;
+    border: 1px solid;
 }
 
 .image h2{
