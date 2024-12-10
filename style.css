@@ -148,6 +148,56 @@ nav{
     position: relative;
     
 }
+
+
+.fifth-section{
+    display: flex;
+    position:relative;
+    flex-direction: column;
+}
+
+.images{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.images img{
+    border-radius: 100%;
+    margin-left: 120px;
+    margin-top: 70px;
+}
+
+.images p{
+    font-family: fraunces;
+    font-size: 15px;
+    margin-top: 10px;
+    padding: 40px;
+    color: #ccc;
+    text-align: center;
+}
+.testimonial{
+    margin: auto;
+    font-family: fraunces;
+    font-weight: 700;
+    color: #ccc;
+    margin-top: 60px;
+}
+
+.images h2{
+    font-family: fraunces;
+    text-align: center;
+
+}
+
+.images h5{
+    margin-top: 10px;
+    font-family: fraunces;
+    color: #ccc;
+    text-align: center;
+}
+    
+
 .fourth-section{
     /* overflow-y: hidden; */
     /* overflow-x: hidden; */
@@ -218,4 +268,5 @@ footer span{
 .footer-icons img{
     margin: 0px 8px;
 }
+
 
