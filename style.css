@@ -50,7 +50,7 @@
     width: 100vw;
     height: 90vh;
 
-
+}
 .text{
     /* border: 1px solid; */
     max-width: 40vw;
@@ -156,19 +156,19 @@ nav{
     flex-direction: column;
 }
 
-.images{
+.image{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.images img{
+.image img{
     border-radius: 100%;
     margin-left: 120px;
     margin-top: 70px;
 }
 
-.images p{
+.image p{
     font-family: fraunces;
     font-size: 15px;
     margin-top: 10px;
@@ -184,13 +184,13 @@ nav{
     margin-top: 60px;
 }
 
-.images h2{
+.image h2{
     font-family: fraunces;
     text-align: center;
 
 }
 
-.images h5{
+.image h5{
     margin-top: 10px;
     font-family: fraunces;
     color: #ccc;
@@ -221,7 +221,7 @@ nav{
     margin-left: 50vw;
     font-size: large;
     color:hsl(198, 62%, 26%) ;
-    margin-top: -18vh;
+    /* margin-top: -18vh; */
 }
 .image-texts h3{
     padding: 30px;
@@ -268,5 +268,3 @@ footer span{
 .footer-icons img{
     margin: 0px 8px;
 }
-
-
