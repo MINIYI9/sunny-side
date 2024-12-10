@@ -4,6 +4,8 @@
 *{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
 }
 
 .second-section{
@@ -47,30 +49,35 @@
     /* border: 1px solid; */
     width: 100vw;
     height: 90vh;
-    overflow-x: hidden;
-    overflow-y: hidden;
-}
+
+
 .text{
     /* border: 1px solid; */
-    width: 45vw;
-    padding: 200px;
+    max-width: 40vw;
+    /* text-align: center; */
+    padding:50px;
     font-size: 30px;
     font-family:Fraunces ;
 }
 .text h2{
-    width: 30vw;
+    /* border: 1px solid; */
+    /* width: 30vw; */
     padding-bottom: 30px;
 }
 .text p {
-    width: 30vw;
+    /* width: 30vw; */
     padding-bottom: 30px;
 }
 .img{
     /* border: 1px solid; */
+    width: 60vw;
+    max-width: 60vw;
+
 }
 .img img{
-    width: 50vw;
-    height: 100%;
+    width: 795px;
+    overflow-y: hidden;
+    height: 627px;
 }
 .text a{
     position: relative;
@@ -129,6 +136,7 @@ nav{
     margin-bottom: 100px;
     font-weight: 900px;
 }
+
 /* .hero-img1{
     width: 60px;
     height: 80px;
@@ -173,3 +181,41 @@ nav{
     padding: 30px;
     font-size: 40px;
 }
+
+
+.sixth-section{
+    display: flex;
+    flex-direction: row;
+    overflow-x: hidden;
+}
+.sixth-section img{
+    width: 25%;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #90d4c5;
+}
+footer span{
+    color: #2c7466;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+.footer-links{
+    margin-top: 25px;
+}
+.footer-icons{
+    margin-top: 25px;
+}
+.footer-links a{
+    text-decoration: none;
+    color: #2c7466;
+    margin: 0px 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.footer-icons img{
+    margin: 0px 8px;
+}
+
