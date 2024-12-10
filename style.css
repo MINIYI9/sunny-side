@@ -1,0 +1,41 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.mother-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid #000; */
+}
+
+.hero-section{
+    /* border: 1px solid #000; */
+    width:50%;
+    padding: 207px;
+    font-family: Fraunces;
+    
+}
+
+.hero-section p{
+    font-size: 10px;
+    color: hsl(213, 9%, 39%);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.imag{
+    border: 1px solid blue;
+
+}
+
+.hero-section a{
+    position: relative;
+    top: -14px;
+    /* font-size: ; */
+    font-family: Fraunces;
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
